@@ -1,5 +1,5 @@
 body {
-    color:blue
+    color:blue;
 }
 table, th,td {
     border: 2px solid black;
@@ -9,4 +9,12 @@ table, th,td {
 }
 img {
     width: 30%
+}
+
+img:hover {
+    width: 50%
+}
+#section1 {
+    color:green;
+    font: 42;
 }
