@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel = "stylesheet" type = "text/css" href = "mycss.css" />
-        <title>My Webpage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="mycss.css" />
+        <title>A website Documenting My Computing Journey</title>
     </head>
-    <header><a href="#section1">section 1!</a></header>
     <body>
-        Shopping List
-        <ul>
-            <li>Twinnings English Breakfast Tea</li>
-            <li>Mama Lemon Dishwashing Liquid</li>
-            <li>Eggs</li>
-            <li>Wholemeal Bread</li>
-        </ul>
-        <table>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-            </tr>
-            <tr>
-                <td>Dove</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Cetaphil</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Devondale</td>
-                <td>3</td>
-            </tr>
-        </table>  
-        <br>
-        Picture of my X-mass tree!
-        <br>
-        <br>
-        <img src="xmas_tree.jpg" alt="Xmas Tree picture">
-        <br>
-        <a href="hello.html">Click here!</a>
-        <h1 id="section1">Section 1</h1>
-        <p>
-            This is section 1 stuff
-        </p>
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-sm-2 nav flex-column">
+                    <img src="application photo.jpg" id = "profilepic" class="img-thumbnail" alt="my pic">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Programming_Projects.html">Programming Projects</a></li>
+                        <li><a href="data_science.html">Data Science Projects</a></li>
+                        <li><a href="stocks.html">Stocks Portfolio</a></li>l
+                    </ul><br>
+                </div>
+                <br>
+                
+                <div class="col-sm-10">
+                    <h4>Introduction</h4>
+                    <p>Some text..</p>
+                    <h4>Education Background</h4>
+                    <p>some text</p>
+                    <h4>EdX courses</h4>
+                    <ul>
+                        <li>Harvard's CS50's Introduction to Computer Science</li>
+                        <li>Georgia Tech's Micromaster: Analytics: Essential Tools and Methods 
+                            <ul>
+                                <li class="inner">Introduction to Analytics Modeling</li>
+                                <li class="inner">Computing for Data Analysis</li>
+                                <li class="inner">Data Analytics for Business</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <table class="table tabled-bordered">
+                        <tr>
+                            <th>Course</th>
+                            <th>Certificate</th>
+                        </tr>
+                        <tr>
+                            <td>CS50</td>
+                            <td><a href="https://courses.edx.org/certificates/bafd619b51e249edb4beded66ec991e2">Click here to view certificate</a></td>
+                        </tr>
+                        <tr>
+                            <td>Georgia Tech's Micromaster</td>
+                            <td><a href="https://credentials.edx.org/credentials/2c16aff95b9f4959a589d6f70c5d6008/">Click here to view certificate</a></td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to Analytics Modeling</td>
+                            <td><a href="https://courses.edx.org/certificates/c1646e6bbc6c40bca638219447956a21">Click here to view certificate</a></td>
+                        </tr>
+                        <tr>
+                            <td>Computing for Data Analysis</td>
+                            <td><a href="https://courses.edx.org/certificates/5853371f44714641835347b18d011639">Click here to view certificate</a></td>
+                        </tr>
+                        <tr>
+                            <td>Data Analytics for Business</td>
+                            <td><a href="https://courses.edx.org/certificates/4461c126697f4f9d93ab4bec4688b510">Click here to view certificate</a></td>
+                        </tr>
+                    </table> 
+
+                </div>
+
+
+
     </body>
-</html>
+</html>    

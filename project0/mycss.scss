@@ -1,0 +1,36 @@
+@import 'pics';
+$weight: 200;
+
+body {
+    color:midnightblue;
+    background-color: bisque;
+}
+table, th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+}
+
+td a:hover,li a:hover {
+    font-weight: 200;    
+}
+
+td {
+    a:hover {
+        font-weight: $weight;
+    }
+}
+td {
+    a:hover {
+        font-weight: $weight;       
+    }
+}
+
+div ::selection {
+    background-color: yellowgreen;
+}
+
+.inner {
+    font-style: italic;
+}

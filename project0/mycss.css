@@ -1,20 +1,38 @@
-body {
-    color:blue;
-}
-table, th,td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 4px;
-}
-img {
-    width: 30%
+#profilepic {
+  width: 150px;
+  margin: 10px;
 }
 
-img:hover {
-    width: 50%
+body {
+  color: midnightblue;
+  background-color: bisque;
 }
-#section1 {
-    color:green;
-    font: 42;
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 4px;
 }
+
+td a:hover, li a:hover {
+  font-weight: 200;
+}
+
+td a:hover {
+  font-weight: 200;
+}
+
+td a:hover {
+  font-weight: 200;
+}
+
+div ::selection {
+  background-color: yellowgreen;
+}
+
+.inner {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=mycss.css.map */
